@@ -6,6 +6,12 @@ import (
 )
 
 func main() {
+  // can convert string to slice of bytes (and vice-versa)
+  arr := []byte("test")
+  str := string([]byte{'t', 'e', 's', 't'})
+  fmt.Println(arr)
+  fmt.Println(str)
+  fmt.Println("_____")
   fmt.Println(
     // true
     strings.Contains("test", "es"),
