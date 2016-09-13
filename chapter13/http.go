@@ -25,3 +25,12 @@ func main() {
   http.HandleFunc("/hello", hello)
   http.ListenAndServe(":9000", nil)
 }
+
+// can handle static files by using FileServer:
+// http.Handle(
+//   "/assets/",
+//   http.StripPrefix(
+//     "/assets/",
+//     http.FileServer(http.Dir("assets")),
+//   ),
+// )
