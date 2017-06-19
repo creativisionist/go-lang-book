@@ -11,6 +11,8 @@ func main() {
   fmt.Println(len("Hello World"))
   fmt.Println("Hello World"[1])
   fmt.Println("Hello " + "World")
+
+  // variable section
   var x string = "Hello World"
   fmt.Println(x)
   y := 5
