@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 // this is a comment
+/* this is a much longer comment */
+/* with multiple lines */
 
 func main() {
   fmt.Println("Hello, my name is computer.")
