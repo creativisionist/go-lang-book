@@ -17,6 +17,10 @@ func main() {
   fmt.Println(x)
   y := 5
   fmt.Println(y)
+  f()
+}
+
+func f() {
   dogsName := "Max"
   fmt.Println("My dog's name is", dogsName)
 }
